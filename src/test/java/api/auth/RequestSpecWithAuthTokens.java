@@ -1,4 +1,4 @@
-package api.group.counters.api.auth;
+package api.auth;
 
 import config.Config;
 import io.restassured.specification.RequestSpecification;

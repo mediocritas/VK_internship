@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class GroupCountersResponse {
+public class GroupCountersResponseBody {
 
     @JsonProperty("counters")
     private Counters counters;
@@ -31,9 +31,6 @@ public class GroupCountersResponse {
         @JsonProperty("delayed_topics")
         private Integer delayedTopics;
 
-        @JsonProperty("friends")
-        private Integer friends;
-
         @JsonProperty("join_requests")
         private Integer joinRequests;
 
@@ -52,17 +49,8 @@ public class GroupCountersResponse {
         @JsonProperty("music_tracks")
         private Integer musicTracks;
 
-        @JsonProperty("new_paid_topics")
-        private Integer newPaidTopics;
-
         @JsonProperty("own_products")
         private Integer ownProducts;
-
-        @JsonProperty("paid_members")
-        private Integer paidMembers;
-
-        @JsonProperty("paid_topics")
-        private Integer paidTopics;
 
         @JsonProperty("photo_albums")
         private Integer photoAlbums;

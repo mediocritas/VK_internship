@@ -1,5 +1,6 @@
 plugins {
     id("java")
+    id 'io.freefair.lombok' version '8.1.0'  // Lombok плагин
 }
 
 group = "org.example"
@@ -12,6 +13,21 @@ repositories {
 dependencies {
     testImplementation(platform("org.junit:junit-bom:5.10.0"))
     testImplementation("org.junit.jupiter:junit-jupiter")
+
+    // RestAssured для работы с API
+    testImplementation 'io.rest-assured:rest-assured:5.3.0'
+
+    // Lombok
+    compileOnly 'org.projectlombok:lombok:1.18.26'
+    annotationProcessor 'org.projectlombok:lombok:1.18.26'
+
+    // Jackson для работы с JSON
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.15.2'
+    implementation 'com.fasterxml.jackson.core:jackson-annotations:2.15.2'
+    implementation 'com.fasterxml.jackson.core:jackson-core:2.15.2'
+
+    // Logback для логирования
+    testImplementation 'ch.qos.logback:logback-classic:1.2.11'
 }
 
 tasks.test {

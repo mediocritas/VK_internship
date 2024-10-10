@@ -1,0 +1,26 @@
+{
+  "counters": {
+    "ads_topics": 0,
+    "black_list": 0,
+    "catalogs": 0,
+    "delayed_topics": 0,
+    "join_requests": 0,
+    "links": 0,
+    "maybe": 0,
+    "members": 2,
+    "moderators": 1,
+    "music_tracks": 0,
+    "own_products": 0,
+    "photo_albums": 1,
+    "photos": 1,
+    "pinned_topics": 0,
+    "presents": 0,
+    "products": 0,
+    "promo_on_moderation": 0,
+    "suggested_products": 0,
+    "suggested_topics": 0,
+    "themes": 1,
+    "unpublished_topics": 0,
+    "videos": 0
+  }
+}

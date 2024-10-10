@@ -1,21 +1,17 @@
 package counters;
 
-public enum CounterTypes {
+public enum CounterType {
     ADS_TOPICS,
     BLACK_LIST,
     CATALOGS,
     DELAYED_TOPICS,
-    FRIENDS,
     JOIN_REQUESTS,
     LINKS,
     MAYBE,
     MEMBERS,
     MODERATORS,
     MUSIC_TRACKS,
-    NEW_PAID_TOPICS,
     OWN_PRODUCTS,
-    PAID_MEMBERS,
-    PAID_TOPICS,
     PHOTOS,
     PHOTO_ALBUMS,
     PINNED_TOPICS,
