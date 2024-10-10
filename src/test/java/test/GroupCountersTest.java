@@ -1,4 +1,4 @@
-package tests;
+package test;
 
 import api.errors.ErrorMessage;
 import api.group.counters.GroupCountersRequest;

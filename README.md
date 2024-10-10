@@ -26,5 +26,5 @@
 3. **Просмотр отчетов JUnit**
    После завершения тестирования, отчеты JUnit можно найти по следующему пути:
    ```
-   build/reports/tests/test/index.html
+   build/reports/test/test/index.html
    ```
